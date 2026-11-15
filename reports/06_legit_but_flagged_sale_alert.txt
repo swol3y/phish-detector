@@ -1,0 +1,25 @@
+====================================================================
+PHISH DETECTOR REPORT
+====================================================================
+Source:        06_legit_but_flagged_sale_alert.eml
+Subject:       LAST CHANCE!! 70% OFF ends TONIGHT - claim your discount NOW!!!
+From:          MegaMart Deals <deals@megamart-promos.com>
+Reply-To:      (not set)
+Auth results:  SPF=pass  DKIM=pass  DMARC=pass
+
+VERDICT:       Suspicious
+RISK SCORE:    41/100
+CONFIDENCE:    medium
+               (rules points: 21/60, Text model phishing probability: 50%)
+
+TOP RED FLAGS:
+  1. [text, +10] The message pushes urgency and deadlines, a classic pressure tactic meant to get a click before the reader stops to think.
+  2. [url, +8] A link uses a URL shortener (tinyurl.com), so the real destination is hidden until after the click.
+  3. [text, +3] The subject line shouts (heavy capitals or exclamation marks), a low-grade signal shared by phishing and spam marketing.
+
+LINKS FOUND (defanged):
+  - hxxps://tinyurl[.]com/megamart70
+
+EXPLANATION (local mode):
+  This email has enough wrong with it that it should not be trusted at face value. The message pushes urgency and deadlines, a classic pressure tactic meant to get a click before the reader stops to think. A link uses a URL shortener (tinyurl.com), so the real destination is hidden until after the click. The subject line shouts (heavy capitals or exclamation marks), a low-grade signal shared by phishing and spam marketing. The text model independently rated the wording 50% likely to be phishing. Do not use the links in the message. If the request matters, reach the sender or service through a channel you already trust (type the address yourself) and verify.
+====================================================================

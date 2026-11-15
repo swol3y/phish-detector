@@ -1,0 +1,21 @@
+From: Delta Community Credit Union <statements@deltacommunitycu.com>
+Return-Path: <statements@deltacommunitycu.com>
+To: tyree@example.com
+Subject: Your November eStatement is ready
+Date: Fri, 14 Nov 2026 06:00:00 +0000
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Authentication-Results: mx.example.com; spf=pass smtp.mailfrom=deltacommunitycu.com; dkim=pass header.d=deltacommunitycu.com; dmarc=pass header.from=deltacommunitycu.com
+Received: from mail.deltacommunitycu.com ([203.0.113.44]) by mx.example.com with ESMTPS; Fri, 14 Nov 2026 06:00:04 +0000
+
+Hello Tyree,
+
+Your November eStatement for your Free Checking account ending in 0112 is now available.
+
+Sign in to online banking to view it at your convenience:
+
+https://www.deltacommunitycu.com
+
+We will never ask you for your password or PIN by email. If you have questions, call the number on the back of your card.
+
+Delta Community Credit Union

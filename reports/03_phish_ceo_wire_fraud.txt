@@ -1,0 +1,26 @@
+====================================================================
+PHISH DETECTOR REPORT
+====================================================================
+Source:        03_phish_ceo_wire_fraud.eml
+Subject:       Confidential: urgent wire transfer needed today
+From:          James Whitfield (CEO) <j.whitfield@company-executive-mail.com>
+Reply-To:      j.whitfield.ceo@private-mailbox.net
+Auth results:  SPF=none  DKIM=none  DMARC=none
+
+VERDICT:       Likely Phishing
+RISK SCORE:    66/100
+CONFIDENCE:    medium
+               (rules points: 43/60, Text model phishing probability: 57%)
+
+TOP RED FLAGS:
+  1. [header, +15] Sender domain does not match the Reply-To domain (company-executive-mail.com vs private-mailbox.net). Replies would go somewhere other than the apparent sender.
+  2. [text, +10] The message pushes urgency and deadlines, a classic pressure tactic meant to get a click before the reader stops to think.
+  3. [text, +10] The message asks for secrecy or confidentiality around a request, the signature move of CEO fraud: the victim is kept from checking with anyone else.
+  4. [header, +8] Neither SPF nor DMARC results are present for this message.
+
+LINKS FOUND (defanged):
+  None.
+
+EXPLANATION (local mode):
+  This email shows strong signs of being a phishing attempt. Sender domain does not match the Reply-To domain (company-executive-mail.com vs private-mailbox.net). Replies would go somewhere other than the apparent sender. The message pushes urgency and deadlines, a classic pressure tactic meant to get a click before the reader stops to think. The message asks for secrecy or confidentiality around a request, the signature move of CEO fraud: the victim is kept from checking with anyone else. Neither SPF nor DMARC results are present for this message. The text model independently rated the wording 57% likely to be phishing. Do not click any link or reply. Report it through your organization's phishing process and delete it.
+====================================================================

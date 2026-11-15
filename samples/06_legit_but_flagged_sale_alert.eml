@@ -1,0 +1,16 @@
+From: MegaMart Deals <deals@megamart-promos.com>
+To: tyree@example.com
+Subject: LAST CHANCE!! 70% OFF ends TONIGHT - claim your discount NOW!!!
+Date: Sat, 15 Nov 2026 10:05:00 +0000
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Authentication-Results: mx.example.com; spf=pass smtp.mailfrom=megamart-promos.com; dkim=pass header.d=megamart-promos.com; dmarc=pass header.from=megamart-promos.com
+Received: from mta.megamart-promos.com ([198.51.100.23]) by mx.example.com with ESMTPS; Sat, 15 Nov 2026 10:05:01 +0000
+
+<html><body>
+<p><b>FLASH SALE - TODAY ONLY!</b></p>
+<p>Act now or miss out forever! Our biggest discount of the year ends at midnight. Stock is almost gone - hurry before your size sells out!</p>
+<p>Claim your 70% discount here before it is too late:</p>
+<p><a href="https://tinyurl.com/megamart70">Shop the sale</a></p>
+<p>You are receiving this because you subscribed to MegaMart Deals. Unsubscribe at any time.</p>
+</body></html>

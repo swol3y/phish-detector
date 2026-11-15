@@ -1,0 +1,20 @@
+From: "Microsoft Account Team" <no-reply@micros0ft-alerts.com>
+To: victim@example.com
+Subject: Action required: unusual sign-in activity detected
+Date: Tue, 11 Nov 2026 08:02:00 +0000
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Authentication-Results: mx.example.com; spf=softfail smtp.mailfrom=micros0ft-alerts.com; dkim=none; dmarc=none
+Received: from vps-host-221.net ([91.108.77.221]) by mx.example.com with ESMTP; Tue, 11 Nov 2026 08:02:11 +0000
+
+Hello,
+
+We detected an unusual sign-in attempt to your Microsoft account from an unrecognized device in another country.
+
+If this was not you, your account will be locked for your protection. Review the activity and secure your account right away:
+
+hxxps://bit.ly/3xK9mQ2
+
+This link expires in 2 hours.
+
+Microsoft Account Team

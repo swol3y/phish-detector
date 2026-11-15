@@ -1,0 +1,23 @@
+====================================================================
+PHISH DETECTOR REPORT
+====================================================================
+Source:        04_legit_github_notification.eml
+Subject:       [GitHub] A new sign-in was detected on your account
+From:          GitHub <notifications@github.com>
+Reply-To:      noreply@github.com
+Auth results:  SPF=pass  DKIM=pass  DMARC=pass
+
+VERDICT:       Likely Legitimate
+RISK SCORE:    17/100
+CONFIDENCE:    medium
+               (rules points: 0/60, Text model phishing probability: 42%)
+
+TOP RED FLAGS:
+  None. No checks tripped.
+
+LINKS FOUND (defanged):
+  - hxxps://github[.]com/settings/security
+
+EXPLANATION (local mode):
+  Nothing in this message tripped the checks. The headers authenticate cleanly, the links go where they claim to go, and the wording does not pressure the reader or ask for credentials. That does not guarantee the email is safe -- no filter can promise that -- but there is no evidence against it. Treat it as normal mail.
+====================================================================

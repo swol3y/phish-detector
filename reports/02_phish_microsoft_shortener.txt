@@ -1,0 +1,27 @@
+====================================================================
+PHISH DETECTOR REPORT
+====================================================================
+Source:        02_phish_microsoft_shortener.eml
+Subject:       Action required: unusual sign-in activity detected
+From:          Microsoft Account Team <no-reply@micros0ft-alerts.com>
+Reply-To:      (not set)
+Auth results:  SPF=softfail  DKIM=none  DMARC=none
+
+VERDICT:       Likely Phishing
+RISK SCORE:    78/100
+CONFIDENCE:    medium
+               (rules points: 56/60, Text model phishing probability: 55%)
+
+TOP RED FLAGS:
+  1. [header, +20] The message presents itself as Microsoft but was sent from micros0ft-alerts.com, which is not a Microsoft domain.
+  2. [header, +10] SPF soft-failed: the sending server is not clearly authorized for the sender's domain.
+  3. [text, +10] The message pushes urgency and deadlines, a classic pressure tactic meant to get a click before the reader stops to think.
+  4. [url, +8] A link uses a URL shortener (bit.ly), so the real destination is hidden until after the click.
+  5. [text, +8] The message threatens account closure, deletion, or loss of funds if the reader does not comply.
+
+LINKS FOUND (defanged):
+  - hxxps://bit[.]ly/3xK9mQ2
+
+EXPLANATION (local mode):
+  This email shows strong signs of being a phishing attempt. The message presents itself as Microsoft but was sent from micros0ft-alerts.com, which is not a Microsoft domain. SPF soft-failed: the sending server is not clearly authorized for the sender's domain. The message pushes urgency and deadlines, a classic pressure tactic meant to get a click before the reader stops to think. A link uses a URL shortener (bit.ly), so the real destination is hidden until after the click. The text model independently rated the wording 55% likely to be phishing. Do not click any link or reply. Report it through your organization's phishing process and delete it.
+====================================================================

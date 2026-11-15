@@ -1,0 +1,19 @@
+From: "PayPal Security Team" <service@paypa1-secure.com>
+Reply-To: <support@paypal-verify-now.net>
+Return-Path: <bounce@mailer77.xyz>
+To: victim@example.com
+Subject: URGENT: Your account has been limited - verify within 24 hours
+Date: Mon, 10 Nov 2026 03:14:00 +0000
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Authentication-Results: mx.example.com; spf=fail (sender IP is 185.220.14.9) smtp.mailfrom=paypa1-secure.com; dkim=none; dmarc=fail header.from=paypa1-secure.com
+Received: from mailer77.xyz ([185.220.14.9]) by mx.example.com with ESMTP; Mon, 10 Nov 2026 03:14:02 +0000
+
+<html><body>
+<p>Dear Customer,</p>
+<p>We detected unusual activity on your account. Your account has been <b>limited</b> and will be <b>permanently suspended within 24 hours</b> unless you verify your identity immediately.</p>
+<p>To restore full access, confirm your password and billing details now:</p>
+<p><a href="http://185.220.14.9/paypal/login/verify">www.paypal.com/verify</a></p>
+<p>Failure to act now will result in account closure and loss of funds.</p>
+<p>PayPal Security Team</p>
+</body></html>

@@ -1,0 +1,23 @@
+====================================================================
+PHISH DETECTOR REPORT
+====================================================================
+Source:        05_legit_bank_statement.eml
+Subject:       Your November eStatement is ready
+From:          Delta Community Credit Union <statements@deltacommunitycu.com>
+Reply-To:      (not set)
+Auth results:  SPF=pass  DKIM=pass  DMARC=pass
+
+VERDICT:       Likely Legitimate
+RISK SCORE:    18/100
+CONFIDENCE:    medium
+               (rules points: 0/60, Text model phishing probability: 44%)
+
+TOP RED FLAGS:
+  None. No checks tripped.
+
+LINKS FOUND (defanged):
+  - hxxps://www[.]deltacommunitycu.com
+
+EXPLANATION (local mode):
+  Nothing in this message tripped the checks. The headers authenticate cleanly, the links go where they claim to go, and the wording does not pressure the reader or ask for credentials. That does not guarantee the email is safe -- no filter can promise that -- but there is no evidence against it. Treat it as normal mail.
+====================================================================

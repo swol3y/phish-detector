@@ -1,0 +1,24 @@
+From: GitHub <notifications@github.com>
+Reply-To: noreply@github.com
+Return-Path: <noreply@github.com>
+To: tyree@example.com
+Subject: [GitHub] A new sign-in was detected on your account
+Date: Thu, 13 Nov 2026 14:22:00 +0000
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Authentication-Results: mx.example.com; spf=pass smtp.mailfrom=github.com; dkim=pass header.d=github.com; dmarc=pass header.from=github.com
+Received: from out-24.smtp.github.com ([192.30.252.205]) by mx.example.com with ESMTPS; Thu, 13 Nov 2026 14:22:03 +0000
+
+Hi Tyree,
+
+A new sign-in was detected for your GitHub account.
+
+Device: Chrome on Windows
+Location: Atlanta, Georgia, United States (approximate)
+
+If this was you, no action is needed. If you do not recognize this activity, review your account security settings here:
+
+https://github.com/settings/security
+
+Thanks,
+The GitHub Team
